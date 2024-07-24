@@ -10,7 +10,7 @@ API_ID = 24620300
 API_HASH = "9a098f01aa56c836f2e34aee4b7ef963"
 BOT_TOKEN = "6915408680:AAGcxq-eVClT3x8Kd2aNlrS0m0sCjnXjDgw"
 MONGO_DB_URI = "mongodb+srv://fidixi3663:w7rvlxmDd5lsX9ix@cluster0.0k1an50.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 9999))
 LOG_GROUP_ID = -1002023182491
 OWNER_ID = 6848223695
 
