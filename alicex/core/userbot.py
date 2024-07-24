@@ -51,8 +51,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("thanosprosss")
-                await self.one.join_chat("learning_bots")
+                await self.one.join_chat("about_tosuu")
+                await self.one.join_chat("nothing_bots_support")
             except:
                 pass
             assistants.append(1)
@@ -72,8 +72,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("learning_bots")
-                await self.one.join_chat("thanosprosss")
+                await self.two.join_chat("about_tosuu")
+                await self.one.join_chat("nothing_bots_support")
             except:
                 pass
             assistants.append(2)
@@ -93,8 +93,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("learning_bots")
-                await self.one.join_chat("thanosprosss")
+                await self.three.join_chat("about_tosuu")
+                await self.one.join_chat("nothing_bots_support")
             except:
                 pass
             assistants.append(3)
