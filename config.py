@@ -8,11 +8,11 @@ load_dotenv()
 
 API_ID = 24620300
 API_HASH = "9a098f01aa56c836f2e34aee4b7ef963"
-BOT_TOKEN = "6809861752:AAHRq6cHBMXjIwOaupzJ9Eiu02ai4g0SwL8"
-MONGO_DB_URI = "mongodb+srv://fidixi3663:w7rvlxmDd5lsX9ix@cluster0.0k1an50.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+BOT_TOKEN = "6457568929:AAEjV58bTPE-ioYY6TFX4VvuPOlXOHY7ytc"
+MONGO_DB_URI = "mongodb+srv://Zenitsuaf:Zenitsuaf@cluster0.i58aapw.mongodb.net/?retryWrites=true&w=majority"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 9999))
-LOG_GROUP_ID = -1002023182491
-OWNER_ID = 6848223695
+LOG_GROUP_ID = -1002061338810
+OWNER_ID = 5322882174
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -22,7 +22,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/about-tosu/nothing_music_vps",
+    "https://github.com/about-tosu/nothing_music_tosuu",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -52,7 +52,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "BQF3rQwAHoNDkOSigDCKwLTkyCB-KJGa9imoFapd2Lf57oPjBzj02O9c1lZlXZbDTLgLy-sOKmfkSzyXv3saQLlGZKrG4gco8wPBZQoka-njc1sFslZZRTMtOtsg6JYypGmlZFr8TnEDj_uJv1dDIVJ-j2zJICU-ByQwpM5U0DcYssAZVU0WCNt6SVpGAYkFKDfvF3-0AF1jvY7qOr2ZqfpDGkLU3zGONs3MNtYSEsBcHYJBLkQ1fYA8SbIUKarD7Xjt4xs-zoFN_YCCcOK3mkRtMPO3WMXeTzQ96s4nhW_yCxjVAh41wSXDTmnpVmlBYXrF5RTTG1DVzu-0ejEKbXQkCEIC5AAAAAF6l3TOAA"
+STRING
 STRING2 = ""
 STRING3 = ""
 STRING4 = getenv("STRING_SESSION4", None)
